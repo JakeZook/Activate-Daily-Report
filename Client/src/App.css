@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+	background-color: transparent;
+	color: cyan;
+	font-size: large;
+	width: 20rem;
+	border: 1px solid cyan;
+}
+
+button:hover {
+	color: blue;
+}
